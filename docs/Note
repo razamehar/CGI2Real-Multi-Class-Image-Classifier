@@ -10,3 +10,5 @@ Validation Datasets:
   - Horse: val-horse.zip
   - Both: val-both.zip
 Test Dataset
+
+Important: Because GitHub doesn't permit uploading files larger than 25 MB, I've divided the compressed train-person dataset into multiple chunks. Please utilize compression and archiving software such as WinRAR to merge the chunks and extract the images..
