@@ -23,4 +23,4 @@ The finalized model and its weights are available for free download and unrestri
 This project is licensed under the Raza Mehar License. See the LICENSE.md file for details.
 
 ## Contact:
-For any questions or clarifications, please contact Raza Mehar at [raza.mehar@gmail.com], Pujan Thapa at [iampujan@outlook.com] or Syed Najam Mehdi at [najam.electrical.ned@gmail.com].
+For any questions or clarifications, please contact Raza Mehar at [raza.mehar@gmail.com].
