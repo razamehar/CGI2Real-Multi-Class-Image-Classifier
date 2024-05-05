@@ -1,15 +1,16 @@
 Code: CGI2Real_Multi_Class_Image_Classifier.ipynb
-Entire Mode: entire_model.h5
-Model Weights: model_weights.h5
+Entire Mode: entire_model.h5 (Multiple chunks in compressed format)
+Model Weights: model_weights.h5 (Multiple chunks in compressed format)
 Training Datasets:
-  - Human: train-person.zip
+  - Human: train-person.rar ((Multiple chunks in compressed format)
   - Horse: train-horse.zip
   - Both: train-both.zip
 Validation Datasets:
   - Human: val-person.zip
   - Horse: val-horse.zip
   - Both: val-both.zip
-Test Dataset
+Test Dataset: test.zip
 
-Important: Since GitHub restricts file uploads to 25 MB, I've split the "entire_model.h5" file into 17 smaller chunks and the "train-person" dataset into 13 chunks. 
-To combine them, you'll need compression and archiving software like WinRAR. Once merged, you can extract the model and images.
+Important: Since GitHub restricts file uploads to 25 MB, I've split the "entire_model.h5" file into 17 smaller chunks, "model_weight.h5" filme into 7 chunks, and 
+the "train-person" dataset into 13 chunks. To combine them, you'll need compression and archiving software like WinRAR. Once merged, you can extract the model and 
+images.
