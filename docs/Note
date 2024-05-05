@@ -1,0 +1,12 @@
+Code: CGI2Real_Multi_Class_Image_Classifier.ipynb
+Entire Mode: entire_model.h5
+Model Weights: model_weights.h5
+Training Datasets:
+  - Human: train-person.zip
+  - Horse: train-horse.zip
+  - Both: train-both.zip
+Validation Datasets:
+  - Human: val-person.zip
+  - Horse: val-horse.zip
+  - Both: val-both.zip
+Test Dataset
