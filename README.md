@@ -3,6 +3,9 @@
 ## Project Overview
 The CGI2Real_Multi-Class_Image_Classifier is an image classification model designed to classify images into three categories: humans, horses, and a combination of both. It utilizes transfer learning, a popular technique in deep learning, leveraging the architecture and pre-trained weights of the Inception Convolutional Neural Network model. Trained on synthetic images, it can also classify real ones.
 
+## Project Inspiration
+The inspiration for this project stemmed from Laurence Moroney's binary classifier, which was trained on synthetic images of humans and horses. Building upon this concept, I aimed to utilize a different dataset of computer-generated images and transitioned the classifier from binary to multi-class. This adaptation enabled the classification of images containing both humans and horses.
+
 ## Training Process
 The training process involves fine-tuning the parameters of the Inception model on the three distinct CGI image datasets. These datasets are carefully curated and collected to represent scenarios featuring humans, horses, and both entities coexisting within the same image. The decision to use CGI images instead of real images stems from the practical challenges associated with acquiring large volumes of real data, particularly in scenarios involving specific subjects like horses. While real images offer authenticity, the synthetic nature of CGI images provides scalability and flexibility, enabling the creation of diverse training sets without constraints.
 
