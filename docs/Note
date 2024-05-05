@@ -11,5 +11,5 @@ Validation Datasets:
   - Both: val-both.zip
 Test Dataset
 
-Important: Because GitHub doesn't permit uploading files larger than 25 MB, I've divided the compressed entire_model.h5 file and train-person dataset into multiple chunks. 
-Please utilize compression and archiving software such as WinRAR to merge the related chunks and extract the model and images.
+Important: Since GitHub restricts file uploads to 25 MB, I've split the "entire_model.h5" file into 17 smaller chunks and the "train-person" dataset into 13 chunks. 
+To combine them, you'll need compression and archiving software like WinRAR. Once merged, you can extract the model and images.
