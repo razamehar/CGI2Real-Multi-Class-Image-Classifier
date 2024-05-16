@@ -21,7 +21,7 @@ The inspiration for this project stemmed from Laurence Moroney's binary classifi
 The training process involves fine-tuning the parameters of the Inception model on the three distinct CGI image datasets. These datasets are carefully curated and collected to represent scenarios featuring humans, horses, and both entities coexisting within the same image. The decision to use CGI images instead of real images stems from the practical challenges associated with acquiring large volumes of real data, particularly in scenarios involving specific subjects like horses. While real images offer authenticity, the synthetic nature of CGI images provides scalability and flexibility, enabling the creation of diverse training sets without constraints.
 
 ## Model's Performance
-The model's performance metrics are highly promising, with a training accuracy of 99% indicating its proficiency in learning from the training data. Furthermore, the validation accuracy of 92% underscores its ability to generalize well to unseen data, demonstrating robust classification capabilities. Despite the impressive results, there remains room for improvement, particularly in the exploration of integrating real images into the training pipeline. Future iterations of the model could benefit from hybrid approaches that combine synthetic and real data, potentially enhancing its adaptability to real-world scenarios and further improving classification accuracy.
+The model's performance metrics are highly promising, with a training accuracy of 99% indicating its proficiency in learning from the training data. Furthermore, the validation accuracy of 92% underscores its ability to generalize well to unseen data, demonstrating robust classification capabilities. Despite the impressive results, there remains room for improvement, particularly in the exploration of integrating real images into the training pipeline.
 
 ### Performance Evaluation: Base Model vs. Model fine-tuned with Inception Convolutional Neural Network
 <table>
@@ -36,6 +36,9 @@ The model's performance metrics are highly promising, with a training accuracy o
     </td>
   </tr>
 </table>
+
+## Potential Improvements
+Future iterations of the model could benefit from hybrid approaches that combine vast amount of both synthetic and real data, potentially enhancing its adaptability to real-world scenarios and further improving classification accuracy.
 
 ## Data Sources:
 - Synthetic images for humans, horses, and combinations were generated through https://runwayml.com/.
