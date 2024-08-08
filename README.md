@@ -1,4 +1,4 @@
-# CGI2Real Multi-Class Image Classifier
+# Synthetic to Real Image Classifier
 
 ## Project Overview
 The CGI2Real_Multi-Class_Image_Classifier is an image classification model designed to classify images into three categories: humans, horses, and a combination of both. It utilizes transfer learning, a popular technique in deep learning, leveraging the architecture and pre-trained weights of the Inception Convolutional Neural Network model. Trained on synthetic images, it can also classify real ones.
