@@ -1,9 +1,13 @@
 # Synthetic to Real Image Classifier
 
 ## Project Overview
-The CGI2Real_Multi-Class_Image_Classifier is an image classification model designed to classify images into three categories: humans, horses, and a combination of both. It utilizes transfer learning, a popular technique in deep learning, leveraging the architecture and pre-trained weights of the Inception Convolutional Neural Network model. Trained on synthetic images, it can also classify real ones.
+The Synthetic to Real Image Classifier is an image classification model designed to classify images into three categories: humans, horses, and a combination of both. It utilizes transfer learning, a popular technique in deep learning, leveraging the architecture and pre-trained weights of the Inception Convolutional Neural Network model. Trained on synthetic images, it can also classify real ones.
 
-### Synthetic Images
+**Transfer Learning:** A machine learning technique where a model pre-trained on a large dataset is fine-tuned on a new, smaller dataset, leveraging learned features to improve performance and reduce training time. It's especially useful in scenarios with limited labeled data.
+
+**InceptionV3:** A deep convolutional neural network designed for image recognition tasks, utilizing Inception modules that apply multiple convolutional filters of different sizes within the same layer, allowing the network to capture a wide range of features from fine details to broader patterns.
+
+## Synthetic Images
 <div>
   <img src="docs/horses.png" alt="Synthetic images of horses" style="max-width: 100%";>
 </div>
